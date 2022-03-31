@@ -1,0 +1,248 @@
+@media(max-width:999px){
+        html{
+                font-size: 90%;
+        }
+        #navbar nav ul li a {
+                font-size: 200%!important;
+                font-weight: bold;
+                
+                
+                
+        }
+
+        #home .content{
+                width: 30rem;
+                padding-left: 2rem;
+        }
+        #home .image{
+                width: 40rem;
+                height: 24rem;
+        }
+        #home .image img{
+                width: 18.8rem;
+                height: 100%;
+        }
+        #home .content .font{
+                font-size: 2rem;
+        }
+        
+  #btn-mobile {
+        display: block;
+      }
+      #menu {
+        
+        list-style: none;
+        gap: 0.5rem;
+    }
+    
+      #menu {
+        display: block;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #fff;
+        height: 0;
+        transition: 0.6s;
+        z-index: 1000;
+        align-items:center;
+        text-align: center;
+        visibility: hidden;
+        overflow-y: hidden;
+        box-shadow: 0 25px 40px;
+        justify-content: space-around!important;
+      }
+    
+      #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        margin-top: 3rem !important;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+      }
+    
+    
+      #nav.active #menu {
+        height: 80vh;
+        visibility: visible;
+      }
+    
+      #btn-mobile {
+        display: flex;
+        padding: 5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+    
+      #hamburguer {
+        display: block;
+        border-top: 3px solid;
+        width: 30px;
+      }
+    
+      #hamburguer::after,
+      #hamburguer::before {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+      }
+    
+      #nav.active #hamburguer {
+        border-top-color: transparent;
+      }
+    
+      #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+      }
+    
+      #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+      }
+}
+@media(max-width:1090px){
+        .font{
+                font-family: var(--font)!important;
+                 font-size: 20px;
+                 text-align: center;
+             }
+
+        html{
+                font-size: 84%;
+        }
+        #home .content{
+                width: 28rem;
+        }
+        #gallery .gallery_container .box{
+                width: 21rem;
+        }
+        #dishes .price_container .item{
+                width: 15rem;
+        }
+        #dishes .price_container .item a{
+                top:  1.5rem;
+        }
+        #our_chefs .chef_container .chef{
+                width: 15rem;
+        }
+        #our_chefs .chef_container .chef p{
+                font-size: .8rem;
+        }
+        #order_form .order_container .order{
+                width: 33rem;
+        }
+        #order_form .order_container .user_details{
+                width: 33rem;
+        }
+}
+@media(max-width:930px){
+        #home .content{
+                width: 24rem;
+        }
+        #home .image{
+                width: 30rem;
+                height: 20rem;
+        }
+        #home .image img{
+                width: 14.5rem;
+                height: 100%;
+        }
+        #gallery .gallery_container .box{
+                width: 18rem;
+                height: 16rem;        
+        }
+        #gallery .gallery_container .box .text{
+                height: 14.5rem;
+        }
+        #dishes .price_container .item{
+                width: 13rem;
+        }
+
+
+        #order_form .order_container .order{
+                width: 23rem;
+        }
+}
+@media(max-width:800px){
+        #navbar{
+                font-size: 0.8rem;
+                justify-content:space-around;
+
+                padding: 0.5rem 0;
+                height: 70px!important;
+        }
+        #navbar .logo .logoname{
+                font-size: 1.5rem;
+        }
+        #navbar nav ul li a{
+                font-size: 1rem;
+                margin: 0;
+        }
+        #home{
+              height: auto;
+              padding: 0.5rem 0;
+        }
+        #home .content{
+               margin: 3.5rem 0 0 0;
+               width: 16rem;
+               height: auto;
+        }
+        #home .content .font{
+                font-size: 2rem;
+                height: auto;
+        }
+        #home .content  h2{
+                font-size: 2rem;
+        }
+        #home .content .fonts{
+                font-size: 0.8rem;
+                height: auto;
+        }
+        #home .image{
+                margin-top: 0;
+                width: auto;
+                height: auto;
+        }
+        #home .image img{
+                width: 9rem;
+        }
+        #home .content .button_link{
+                margin:  0.5rem 0 0 0;
+        }
+        #home .design{
+                top: 3rem;
+        }
+        #gallery .gallery_container{
+                justify-content: center;
+        }
+        #dishes .price_container{
+                justify-content: center;
+                width: auto;
+                margin: 0 0.5rem;
+        }
+       
+        #order_form .order_container .user_details .form_container .form{
+                width: 100%;
+                padding: 0 0.5rem;
+        }
+        #order_form .order_container .user_details .address{
+                margin: 1rem 0.5rem;
+        }
+        #order_form .order_container .user_details .button .tap{
+                margin: 0 0.5rem;
+        }
+        #about .container{
+                gap: 2rem;
+        }
+
+
+        
+
+}
